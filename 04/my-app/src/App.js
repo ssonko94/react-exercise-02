@@ -44,7 +44,7 @@ function App() {
       {mediumBox}
       {largeBox}
       <Box
-        size="box box--small"
+        size="small"
         style={{ backgroundColor: "lightblue", fontStyle: "italic" }}
       >
         small lightblue box
