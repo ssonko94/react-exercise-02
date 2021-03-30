@@ -26,7 +26,7 @@ function Greeting({ initialName = "" }) {
 
   function handleClick() {
     if (key === "name") {
-      setKey("fistName");
+      setKey("firstName");
     } else if (key === "firstName") {
       setKey("Name");
     } else {
