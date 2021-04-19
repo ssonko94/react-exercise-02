@@ -1,0 +1,59 @@
+.button {
+  width: 6rem;
+  height: 6rem;
+  background: #f875aa;
+  transition: all 0.2s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  user-select: none;
+}
+
+.button:active,
+.button:hover {
+  background: #fbaccc;
+}
+
+.button-clear-one {
+  background: #7868e6;
+  transition: all 0.2s;
+}
+
+.button-clear-one:active,
+.button-clear-one:hover {
+  background: rgba(121, 104, 230, 0.8);
+}
+
+.button-all-clear {
+  background: #00a8ff;
+  transition: all 0.2s;
+}
+
+.button-all-clear:active,
+.button-all-clear:hover {
+  background: rgba(0, 170, 255, 0.5);
+}
+.button-operator {
+  background: #7868e6;
+  transition: all 0.2s;
+}
+.button-operator:active,
+.button-operator:hover {
+  background: rgba(121, 104, 230, 0.8);
+}
+
+.button-scientific {
+  background: #7868e6;
+}
+
+.button-scientific:active,
+.button-scientific:hover {
+  background: rgba(121, 104, 230, 0.8);
+}
