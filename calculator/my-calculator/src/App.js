@@ -8,7 +8,7 @@ function App() {
   const [sequency, setSequency] = useState("");
   const [answer, setAnswer] = useState("0");
 
-  const handleArithemetic = function (value) {
+  const handleArithmetic = function (value) {
     let newSquency = "";
     if (isNewSequency) {
       newSquency = value;
@@ -56,7 +56,7 @@ function App() {
         deleteSequence();
         break;
       default:
-        handleArithemetic(value);
+        handleArithmetic(value);
         break;
     }
   };
